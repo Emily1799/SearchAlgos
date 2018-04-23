@@ -9,7 +9,7 @@ import java.lang.System.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class project{
+public class project {
 
     public static ArrayList<Integer> Quicksort(ArrayList<Integer> list, int pivot) {
         ArrayList<Integer> greater_or_equal = new ArrayList<>();
@@ -21,7 +21,7 @@ public class project{
         }
         //divide
         else { //sort into two lists -- one greater than, one less than the pivot
-            list.remove(0);
+            list.remove(0); //remove pivot --it's added back in combine step
             for(Integer i : list) {
                 if(i >= pivot) {
                     greater_or_equal.add(i);
@@ -33,14 +33,13 @@ public class project{
             //Conquer -- recursively sort smaller lists
             //pivot off first element -- naive quicksort
             if(greater_or_equal.size() >= 1) {
-                greater_or_equal = Quicksort(greater_or_equal, greater_or_equal.get(0));
-                
+                greater_or_equal = Quicksort(greater_or_equal, greater_or_equal.get(0));   
             }
             if(less.size() >= 1) {
                 less = Quicksort(less,less.get(0));
             }
         }
-        
+
         //combine
         sorted.addAll(less);
         sorted.add(pivot);
@@ -54,19 +53,20 @@ public class project{
         int max = list_size*10;
         Random r = new Random();
         ArrayList<Integer> list = new ArrayList<>();
+      
         for(int i = 0; i < list_size; i++) {
             list.add(r.nextInt(max));
         }
-
         System.out.println(list);
         
+        ArrayList<Integer> sorted;
         //get start time
         long startTime = System.nanoTime();
-        list = Quicksort(list, list.get(0));
+        sorted = Quicksort(list, list.get(0));
         long endTime   = System.nanoTime();
-        
-        System.out.println(list);
         long totalTime = endTime - startTime;
+        
+        System.out.println(sorted);
         System.out.println("Time to QuickSort = " + totalTime + "ns"); 
 
     }
