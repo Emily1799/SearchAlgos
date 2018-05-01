@@ -3,6 +3,7 @@ import java.util.Random;
 import java.util.ArrayList;
 import java.lang.System.*;
 import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * Write a description of class project here.
@@ -110,20 +111,10 @@ public class project {
         return Merge(left, right);
     }
     
-    public static void main(String[] args) {
-     
-        int list_size = 10;
-        int max = list_size*10;
-        Random r = new Random();
-        ArrayList<Integer> list = new ArrayList<>();
-      
-        for(int i = 0; i < list_size; i++) {
-            list.add(r.nextInt(max));
-        }
-        System.out.println(list);
+    public static ArrayList<Integer> calc_and_print(ArrayList<Integer> list) {
         
         ArrayList<Integer> sorted;
-        //get start time
+        
         long startTime = System.nanoTime();
         sorted = QuickSort((ArrayList<Integer>)list.clone(), list.get(0));
         long endTime   = System.nanoTime();
@@ -134,9 +125,73 @@ public class project {
         endTime   = System.nanoTime();
         long totalTimeMS = endTime - startTime;
         
-        System.out.println(sorted);
         System.out.println("Time to QuickSort = " + totalTimeQS + " ns");
         System.out.println("Time to MergeSort = " + totalTimeMS + " ns");
+        
+        System.out.println(); 
+        
+        return sorted;
+    }
+    
+    public static void main(String[] args) {
+         //for a random list
+        int list_size = 100000;
+        int max = list_size*10;
+        Random r = new Random();
+        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> sorted;
+      
+        for(int i = 0; i < list_size; i++) {
+            list.add(r.nextInt(max));
+        }
+        //System.out.println(list);
+        System.out.println("Randomly sorted list");
+        sorted = calc_and_print(list);
+       
 
+        
+        //for a list with relatively few unique values
+        ArrayList<Integer> list_repeats = new ArrayList<>();
+        max = list_size / 5; //so on average, 5 of each value
+        for(int i = 0; i < list_size; i++) {
+            list_repeats.add(r.nextInt(max));
+        }
+        
+        System.out.println("Few Uniques");
+        sorted = calc_and_print(list_repeats);
+        //fix max
+        max = list_size * 10;
+       //for a list that is already sorted -- note that running this on large lists requires increasing the size of the call stack
+       //java -Xss258m project is enough for 100k elements
+       System.out.println("Already sorted");
+       sorted = calc_and_print(sorted);
+       
+       //for a list that is already reverse sorted
+       ArrayList<Integer> list_reverse = new ArrayList<>();
+       for(int i =list_size; i > 0; i--){
+           list_reverse.add(i);
+       }
+      
+       System.out.println("Reverse sorted");
+       sorted = calc_and_print(list_reverse);
+       
+       //mostly sorted
+       ArrayList<Integer> list_mostly_sorted = sorted;
+       //swap a bunch of numbers
+       for(int i = 0; i <list_size/10; i++) {
+           int index1 = r.nextInt(list_size);
+           int index2 = r.nextInt(list_size);
+           
+           int val1 = list_mostly_sorted.get(index1);
+           int val2 = list_mostly_sorted.get(index2);
+           list_mostly_sorted.set(index1, val2);
+           list_mostly_sorted.set(index2, val1);
+        }
+        
+        System.out.println("List that has ~20% of items out of place");
+        sorted = calc_and_print(list_mostly_sorted);
+       
+       
+                
     }
 }
