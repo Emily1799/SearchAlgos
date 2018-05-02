@@ -1,16 +1,9 @@
-
 import java.util.Random;
 import java.util.ArrayList;
 import java.lang.System.*;
 import java.util.Arrays;
 import java.util.Collections;
 
-/**
- * Write a description of class project here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class project {
 
     public static ArrayList<Integer> QuickSort(ArrayList<Integer> list, int pivot) {
@@ -39,6 +32,41 @@ public class project {
             }
             if(less.size() >= 1) {
                 less = QuickSort(less,less.get(0));
+            }
+        }
+
+        //combine
+        sorted.addAll(less);
+        sorted.add(pivot);
+        sorted.addAll(greater_or_equal);
+        return sorted;
+    }
+        public static ArrayList<Integer> QuickSort_Random(ArrayList<Integer> list, int pivot) {
+        ArrayList<Integer> greater_or_equal = new ArrayList<>();
+        ArrayList<Integer> less = new ArrayList<>();
+        ArrayList<Integer> sorted = new ArrayList<>();
+        //base case -- we've recursed to the bottom
+        if(list.size() == 1) {
+            return list;
+        }
+        //divide
+        else { //sort into two lists -- one greater than, one less than the pivot
+           Random r = new Random();
+           for(Integer i : list) {
+                if(i >= pivot) {
+                    greater_or_equal.add(i);
+                }
+                else {
+                    less.add(i);
+                }
+            }
+            //Conquer -- recursively sort smaller lists
+            //pivot off first element -- naive quicksort
+            if(greater_or_equal.size() >= 1) {
+                    greater_or_equal = QuickSort(greater_or_equal, greater_or_equal.get(r.nextInt(greater_or_equal.size())));   
+            }
+            if(less.size() >= 1) {
+                less = QuickSort(less,less.get(r.nextInt(less.size())));
             }
         }
 
@@ -111,8 +139,8 @@ public class project {
         return Merge(left, right);
     }
     
-    public static ArrayList<Integer> calc_and_print(ArrayList<Integer> list) {
-        
+    public static ArrayList<Integer> Calc_and_print(ArrayList<Integer> list) {
+        Random r = new Random();
         ArrayList<Integer> sorted;
         
         long startTime = System.nanoTime();
@@ -121,12 +149,21 @@ public class project {
         long totalTimeQS = endTime - startTime;
         
         startTime = System.nanoTime();
+        sorted = QuickSort((ArrayList<Integer>)list.clone(), list.get(r.nextInt(list.size())));
+        endTime   = System.nanoTime();
+        long totalTimeQSR = endTime - startTime;       
+        
+        
+        startTime = System.nanoTime();
         sorted = MergeSort((ArrayList<Integer>) list.clone());
         endTime   = System.nanoTime();
         long totalTimeMS = endTime - startTime;
         
-        System.out.println("Time to QuickSort = " + totalTimeQS + " ns");
-        System.out.println("Time to MergeSort = " + totalTimeMS + " ns");
+                                            
+        
+        System.out.println("Time to QuickSort  = " + totalTimeQS +  " ns");
+        System.out.println("Time to QuickSortR = " + totalTimeQSR + " ns");
+        System.out.println("Time to MergeSort  = " + totalTimeMS +  " ns");
         
         System.out.println(); 
         
@@ -135,7 +172,7 @@ public class project {
     
     public static void main(String[] args) {
          //for a random list
-        int list_size = 100000;
+        int list_size = 1000;
         int max = list_size*10;
         Random r = new Random();
         ArrayList<Integer> list = new ArrayList<>();
@@ -146,10 +183,8 @@ public class project {
         }
         //System.out.println(list);
         System.out.println("Randomly sorted list");
-        sorted = calc_and_print(list);
+        sorted = Calc_and_print(list);
        
-
-        
         //for a list with relatively few unique values
         ArrayList<Integer> list_repeats = new ArrayList<>();
         max = list_size / 5; //so on average, 5 of each value
@@ -158,13 +193,13 @@ public class project {
         }
         
         System.out.println("Few Uniques");
-        sorted = calc_and_print(list_repeats);
+        sorted = Calc_and_print(list_repeats);
         //fix max
         max = list_size * 10;
        //for a list that is already sorted -- note that running this on large lists requires increasing the size of the call stack
        //java -Xss258m project is enough for 100k elements
        System.out.println("Already sorted");
-       sorted = calc_and_print(sorted);
+       sorted = Calc_and_print(sorted);
        
        //for a list that is already reverse sorted
        ArrayList<Integer> list_reverse = new ArrayList<>();
@@ -173,7 +208,7 @@ public class project {
        }
       
        System.out.println("Reverse sorted");
-       sorted = calc_and_print(list_reverse);
+       sorted = Calc_and_print(list_reverse);
        
        //mostly sorted
        ArrayList<Integer> list_mostly_sorted = sorted;
@@ -188,8 +223,8 @@ public class project {
            list_mostly_sorted.set(index2, val1);
         }
         
-        System.out.println("List that has ~20% of items out of place");
-        sorted = calc_and_print(list_mostly_sorted);
+        System.out.println("~20% of items out of place");
+        sorted = Calc_and_print(list_mostly_sorted);
        
        
                 
