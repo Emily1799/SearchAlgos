@@ -208,11 +208,11 @@ public class project {
         endTime   = System.nanoTime();
         long totalTimeHS = endTime - startTime;
 
-        System.out.println("Time to InsertionSort  = " + totalTimeIS +  " ns");
-        System.out.println("Time to QuickSort  = " + totalTimeQS +  " ns");
-        System.out.println("Time to QuickSortR = " + totalTimeQSR + " ns");
-        System.out.println("Time to MergeSort  = " + totalTimeMS +  " ns");
-        System.out.println("Time to HeapSort  = " + totalTimeHS +  " ns");
+        System.out.println("Time to InsertionSort  \t= " + totalTimeIS +  " ns");
+        System.out.println("Time to QuickSort  \t= " + totalTimeQS +  " ns");
+        System.out.println("Time to QuickSortR \t= " + totalTimeQSR + " ns");
+        System.out.println("Time to MergeSort  \t= " + totalTimeMS +  " ns");
+        System.out.println("Time to HeapSort  \t= " + totalTimeHS +  " ns");
         
         System.out.println(); 
         
