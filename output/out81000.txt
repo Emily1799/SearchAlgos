@@ -1,360 +1,360 @@
 Run 1
 Randomly sorted list
-Time to InsertionSort  	= 14 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 4 ms
+Time to InsertionSort  	= 16314000 ns
+Time to HeapSort 	= 2114000 ns
+Time to QuickSort 	= 3213000 ns
+Time to QuickSortR 	= 1485000 ns
+Time to MergeSort  	= 4478000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11265000 ns
+Time to HeapSort 	= 268000 ns
+Time to QuickSort 	= 689000 ns
+Time to QuickSortR 	= 662000 ns
+Time to MergeSort  	= 1137000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 23000 ns
+Time to HeapSort 	= 220000 ns
+Time to QuickSort 	= 3992000 ns
+Time to QuickSortR 	= 2561000 ns
+Time to MergeSort  	= 819000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 23 ms
-Time to QuickSortR 	= 10 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 232000 ns
+Time to QuickSort 	= 20027000 ns
+Time to QuickSortR 	= 9091000 ns
+Time to MergeSort  	= 310000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 685000 ns
+Time to HeapSort 	= 205000 ns
+Time to QuickSort 	= 885000 ns
+Time to QuickSortR 	= 634000 ns
+Time to MergeSort  	= 322000 ns
 
 Run 2
 Randomly sorted list
-Time to InsertionSort  	= 18 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 5 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 5 ms
+Time to InsertionSort  	= 16858000 ns
+Time to HeapSort 	= 2344000 ns
+Time to QuickSort 	= 4186000 ns
+Time to QuickSortR 	= 1160000 ns
+Time to MergeSort  	= 4566000 ns
 
 Few Uniques
-Time to InsertionSort  	= 11 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 1 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11617000 ns
+Time to HeapSort 	= 275000 ns
+Time to QuickSort 	= 719000 ns
+Time to QuickSortR 	= 705000 ns
+Time to MergeSort  	= 1135000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 5 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 225000 ns
+Time to QuickSort 	= 3854000 ns
+Time to QuickSortR 	= 2460000 ns
+Time to MergeSort  	= 889000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 23 ms
-Time to QuickSortR 	= 12 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 159000 ns
+Time to QuickSort 	= 19410000 ns
+Time to QuickSortR 	= 10560000 ns
+Time to MergeSort  	= 275000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 426000 ns
+Time to HeapSort 	= 148000 ns
+Time to QuickSort 	= 711000 ns
+Time to QuickSortR 	= 577000 ns
+Time to MergeSort  	= 316000 ns
 
 Run 3
 Randomly sorted list
-Time to InsertionSort  	= 16 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 4 ms
+Time to InsertionSort  	= 17039000 ns
+Time to HeapSort 	= 2451000 ns
+Time to QuickSort 	= 3856000 ns
+Time to QuickSortR 	= 1343000 ns
+Time to MergeSort  	= 4507000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 10515000 ns
+Time to HeapSort 	= 285000 ns
+Time to QuickSort 	= 738000 ns
+Time to QuickSortR 	= 763000 ns
+Time to MergeSort  	= 1068000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 22000 ns
+Time to HeapSort 	= 223000 ns
+Time to QuickSort 	= 4087000 ns
+Time to QuickSortR 	= 2465000 ns
+Time to MergeSort  	= 692000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 19 ms
-Time to QuickSortR 	= 8 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 16000 ns
+Time to HeapSort 	= 217000 ns
+Time to QuickSort 	= 19572000 ns
+Time to QuickSortR 	= 9064000 ns
+Time to MergeSort  	= 278000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 653000 ns
+Time to HeapSort 	= 219000 ns
+Time to QuickSort 	= 653000 ns
+Time to QuickSortR 	= 585000 ns
+Time to MergeSort  	= 336000 ns
 
 Run 4
 Randomly sorted list
-Time to InsertionSort  	= 15 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 3 ms
+Time to InsertionSort  	= 17180000 ns
+Time to HeapSort 	= 2354000 ns
+Time to QuickSort 	= 3750000 ns
+Time to QuickSortR 	= 1397000 ns
+Time to MergeSort  	= 4261000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11511000 ns
+Time to HeapSort 	= 282000 ns
+Time to QuickSort 	= 799000 ns
+Time to QuickSortR 	= 746000 ns
+Time to MergeSort  	= 1081000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 4 ms
-Time to QuickSortR 	= 3 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 23000 ns
+Time to HeapSort 	= 224000 ns
+Time to QuickSort 	= 4007000 ns
+Time to QuickSortR 	= 2565000 ns
+Time to MergeSort  	= 688000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 22 ms
-Time to QuickSortR 	= 12 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 16000 ns
+Time to HeapSort 	= 242000 ns
+Time to QuickSort 	= 19932000 ns
+Time to QuickSortR 	= 12246000 ns
+Time to MergeSort  	= 333000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 654000 ns
+Time to HeapSort 	= 204000 ns
+Time to QuickSort 	= 625000 ns
+Time to QuickSortR 	= 538000 ns
+Time to MergeSort  	= 322000 ns
 
 Run 5
 Randomly sorted list
-Time to InsertionSort  	= 14 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 4 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 3 ms
+Time to InsertionSort  	= 15419000 ns
+Time to HeapSort 	= 2352000 ns
+Time to QuickSort 	= 3709000 ns
+Time to QuickSortR 	= 1540000 ns
+Time to MergeSort  	= 3888000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 9894000 ns
+Time to HeapSort 	= 328000 ns
+Time to QuickSort 	= 779000 ns
+Time to QuickSortR 	= 796000 ns
+Time to MergeSort  	= 1498000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 222000 ns
+Time to QuickSort 	= 4182000 ns
+Time to QuickSortR 	= 2170000 ns
+Time to MergeSort  	= 666000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 22 ms
-Time to QuickSortR 	= 9 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 184000 ns
+Time to QuickSort 	= 22347000 ns
+Time to QuickSortR 	= 12747000 ns
+Time to MergeSort  	= 263000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 571000 ns
+Time to HeapSort 	= 177000 ns
+Time to QuickSort 	= 826000 ns
+Time to QuickSortR 	= 787000 ns
+Time to MergeSort  	= 314000 ns
 
 Run 6
 Randomly sorted list
-Time to InsertionSort  	= 14 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 3 ms
+Time to InsertionSort  	= 16825000 ns
+Time to HeapSort 	= 2225000 ns
+Time to QuickSort 	= 3511000 ns
+Time to QuickSortR 	= 1791000 ns
+Time to MergeSort  	= 4225000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11006000 ns
+Time to HeapSort 	= 264000 ns
+Time to QuickSort 	= 676000 ns
+Time to QuickSortR 	= 685000 ns
+Time to MergeSort  	= 1107000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 232000 ns
+Time to QuickSort 	= 4097000 ns
+Time to QuickSortR 	= 2298000 ns
+Time to MergeSort  	= 711000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 22 ms
-Time to QuickSortR 	= 9 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 157000 ns
+Time to QuickSort 	= 19692000 ns
+Time to QuickSortR 	= 11867000 ns
+Time to MergeSort  	= 262000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 462000 ns
+Time to HeapSort 	= 147000 ns
+Time to QuickSort 	= 1091000 ns
+Time to QuickSortR 	= 1069000 ns
+Time to MergeSort  	= 323000 ns
 
 Run 7
 Randomly sorted list
-Time to InsertionSort  	= 16 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 4 ms
+Time to InsertionSort  	= 17075000 ns
+Time to HeapSort 	= 2370000 ns
+Time to QuickSort 	= 3888000 ns
+Time to QuickSortR 	= 1528000 ns
+Time to MergeSort  	= 4374000 ns
 
 Few Uniques
-Time to InsertionSort  	= 13 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11046000 ns
+Time to HeapSort 	= 262000 ns
+Time to QuickSort 	= 703000 ns
+Time to QuickSortR 	= 753000 ns
+Time to MergeSort  	= 1084000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 224000 ns
+Time to QuickSort 	= 4070000 ns
+Time to QuickSortR 	= 2358000 ns
+Time to MergeSort  	= 683000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 20 ms
-Time to QuickSortR 	= 8 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 152000 ns
+Time to QuickSort 	= 19788000 ns
+Time to QuickSortR 	= 10235000 ns
+Time to MergeSort  	= 258000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 619000 ns
+Time to HeapSort 	= 159000 ns
+Time to QuickSort 	= 970000 ns
+Time to QuickSortR 	= 824000 ns
+Time to MergeSort  	= 553000 ns
 
 Run 8
 Randomly sorted list
-Time to InsertionSort  	= 16 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 4 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 4 ms
+Time to InsertionSort  	= 15280000 ns
+Time to HeapSort 	= 2306000 ns
+Time to QuickSort 	= 3760000 ns
+Time to QuickSortR 	= 1386000 ns
+Time to MergeSort  	= 3894000 ns
 
 Few Uniques
-Time to InsertionSort  	= 11 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 11124000 ns
+Time to HeapSort 	= 268000 ns
+Time to QuickSort 	= 800000 ns
+Time to QuickSortR 	= 808000 ns
+Time to MergeSort  	= 1421000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 254000 ns
+Time to QuickSort 	= 3847000 ns
+Time to QuickSortR 	= 2124000 ns
+Time to MergeSort  	= 675000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 18 ms
-Time to QuickSortR 	= 8 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 22000 ns
+Time to HeapSort 	= 162000 ns
+Time to QuickSort 	= 22024000 ns
+Time to QuickSortR 	= 9953000 ns
+Time to MergeSort  	= 313000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 710000 ns
+Time to HeapSort 	= 157000 ns
+Time to QuickSort 	= 645000 ns
+Time to QuickSortR 	= 601000 ns
+Time to MergeSort  	= 335000 ns
 
 Run 9
 Randomly sorted list
-Time to InsertionSort  	= 16 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 3 ms
+Time to InsertionSort  	= 16310000 ns
+Time to HeapSort 	= 2244000 ns
+Time to QuickSort 	= 4485000 ns
+Time to QuickSortR 	= 926000 ns
+Time to MergeSort  	= 3957000 ns
 
 Few Uniques
-Time to InsertionSort  	= 10 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 10965000 ns
+Time to HeapSort 	= 325000 ns
+Time to QuickSort 	= 674000 ns
+Time to QuickSortR 	= 692000 ns
+Time to MergeSort  	= 1058000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 237000 ns
+Time to QuickSort 	= 3955000 ns
+Time to QuickSortR 	= 3338000 ns
+Time to MergeSort  	= 697000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 22 ms
-Time to QuickSortR 	= 9 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 16000 ns
+Time to HeapSort 	= 157000 ns
+Time to QuickSort 	= 19454000 ns
+Time to QuickSortR 	= 10617000 ns
+Time to MergeSort  	= 268000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 624000 ns
+Time to HeapSort 	= 148000 ns
+Time to QuickSort 	= 961000 ns
+Time to QuickSortR 	= 921000 ns
+Time to MergeSort  	= 314000 ns
 
 Run 10
 Randomly sorted list
-Time to InsertionSort  	= 15 ms
-Time to HeapSort 	= 2 ms
-Time to QuickSort 	= 3 ms
-Time to QuickSortR 	= 1 ms
-Time to MergeSort  	= 3 ms
+Time to InsertionSort  	= 14986000 ns
+Time to HeapSort 	= 2341000 ns
+Time to QuickSort 	= 3762000 ns
+Time to QuickSortR 	= 1932000 ns
+Time to MergeSort  	= 4111000 ns
 
 Few Uniques
-Time to InsertionSort  	= 11 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 1 ms
+Time to InsertionSort  	= 10858000 ns
+Time to HeapSort 	= 263000 ns
+Time to QuickSort 	= 754000 ns
+Time to QuickSortR 	= 749000 ns
+Time to MergeSort  	= 1515000 ns
 
 Already sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 4 ms
-Time to QuickSortR 	= 2 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 17000 ns
+Time to HeapSort 	= 221000 ns
+Time to QuickSort 	= 4059000 ns
+Time to QuickSortR 	= 2771000 ns
+Time to MergeSort  	= 680000 ns
 
 Reverse sorted
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 23 ms
-Time to QuickSortR 	= 9 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 15000 ns
+Time to HeapSort 	= 154000 ns
+Time to QuickSort 	= 22583000 ns
+Time to QuickSortR 	= 10169000 ns
+Time to MergeSort  	= 319000 ns
 
 ~20% of items out of place
-Time to InsertionSort  	= 0 ms
-Time to HeapSort 	= 0 ms
-Time to QuickSort 	= 0 ms
-Time to QuickSortR 	= 0 ms
-Time to MergeSort  	= 0 ms
+Time to InsertionSort  	= 552000 ns
+Time to HeapSort 	= 146000 ns
+Time to QuickSort 	= 877000 ns
+Time to QuickSortR 	= 839000 ns
+Time to MergeSort  	= 314000 ns
 
