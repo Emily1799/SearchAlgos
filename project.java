@@ -218,7 +218,7 @@ public class project {
         
         System.out.println("Time to QuickSort \t= " + totalTimeQS +  " ns");
         System.out.println("Time to QuickSortR \t= " + totalTimeQSR + " ns");
-        System.out.println("Time to MergeSort  \t= " + totalTimeMS/1000000 +  " ms");
+        System.out.println("Time to MergeSort  \t= " + totalTimeMS +  " ns");
         
         System.out.println(); 
         
