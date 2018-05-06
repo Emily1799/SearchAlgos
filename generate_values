@@ -1,11 +1,15 @@
 #!/bin/bash
 
+rm -r output
+mkdir output
+
 for ((n=1000;n<=100000;n+=1000))
 do
 	for run in {1..10}
 	do
-		echo Run ${run} >>output/out${n}.txt
-		java project 1000 >> output/out${n}.txt
+		echo Run ${run} >> output/out${n}.txt
+		java project ${n} >> output/out${n}.txt
 	done
+	echo Finished size ${n}
 done
 
