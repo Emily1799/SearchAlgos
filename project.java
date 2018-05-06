@@ -209,15 +209,15 @@ public class project {
         endTime   = System.nanoTime();
         long totalTimeHS = endTime - startTime;
 
-        System.out.println("Time to InsertionSort  \t= " + totalTimeIS/1000000 +  " ms");
+        System.out.println("Time to InsertionSort  \t= " + totalTimeIS +  " ns");
        /* System.out.println("Time to QuickSort  \t= " + totalTimeQS +  " ns");
         System.out.println("Time to QuickSortR \t= " + totalTimeQSR + " ns");
         System.out.println("Time to MergeSort  \t= " + totalTimeMS +  " ns");
         */
-        System.out.println("Time to HeapSort \t= " + totalTimeHS/1000000 +  " ms");
+        System.out.println("Time to HeapSort \t= " + totalTimeHS +  " ns");
         
-        System.out.println("Time to QuickSort \t= " + totalTimeQS/1000000 +  " ms");
-        System.out.println("Time to QuickSortR \t= " + totalTimeQSR/1000000 + " ms");
+        System.out.println("Time to QuickSort \t= " + totalTimeQS +  " ns");
+        System.out.println("Time to QuickSortR \t= " + totalTimeQSR + " ns");
         System.out.println("Time to MergeSort  \t= " + totalTimeMS/1000000 +  " ms");
         
         System.out.println(); 
