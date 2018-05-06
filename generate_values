@@ -1,11 +1,11 @@
 #!/bin/bash
 
-for ((n=1000;n<=10000;n+=1000))
+for ((n=1000;n<=100000;n+=1000))
 do
 	for run in {1..10}
 	do
-		echo Run ${run} >> out${n}.txt
-		java project 1000 >> out${n}.txt
+		echo Run ${run} >>output/out${n}.txt
+		java project 1000 >> output/out${n}.txt
 	done
 done
 
