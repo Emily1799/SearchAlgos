@@ -8,7 +8,7 @@ do
 	for run in {1..10}
 	do
 		echo Run ${run} >> output/out${n}.txt
-		java project ${n} >> output/out${n}.txt
+		java -Xss256m project ${n} >> output/out${n}.txt
 	done
 	echo Finished size ${n}
 done
